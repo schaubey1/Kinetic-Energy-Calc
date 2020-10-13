@@ -8,12 +8,12 @@ int main ()
     double ke=0;
     int m=0;
     int v=0;
-    cout<<"Please enter mass";
+    cout<<"Please enter mass (KG)";
     cin >> m;
-    cout<<"Please enter velocity";
+    cout<<"Please enter velocity(meters/sec)";
     cin>>v;
     ke = kineticEnergy (m,v);
-    cout <<"Kinetic Energy of this object is"<<ke<<endl;
+    cout <<"Kinetic Energy of this object is "<<ke<<" in joules."<<endl;
     return 0;
 }
 
